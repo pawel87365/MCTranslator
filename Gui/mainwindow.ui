@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPlainTextEdit" name="theNormalPlainTextEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theLoadNormaPushButton">
+        <property name="text">
+         <string>LOAD</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theSaveNormalPushButton">
+        <property name="text">
+         <string>SAVE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theCodePushButton">
+        <property name="text">
+         <string>CODE</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPlainTextEdit" name="theMorseplainTextEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theLoadMorsePushButton">
+        <property name="text">
+         <string>LOAD</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theSaveMorsePushButton">
+        <property name="text">
+         <string>SAVE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theDecodePushButton">
+        <property name="text">
+         <string>DECODE</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>555</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="rotateAction">
+   <property name="text">
+    <string>Turn images upside down</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;dsadas&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="theTakeSnapshotAction">
+   <property name="text">
+    <string>Snaphost</string>
+   </property>
+  </action>
+  <action name="theActionSetup">
+   <property name="text">
+    <string>Setup</string>
+   </property>
+  </action>
+  <action name="theActionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="theActionConditions">
+   <property name="text">
+    <string>Conditions</string>
+   </property>
+  </action>
+  <action name="theActionNotification_settings">
+   <property name="text">
+    <string>Notification settings</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
